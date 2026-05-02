@@ -1,0 +1,14 @@
+/Users/brysonwebb/Desktop/BYUI/Semesters/2026Spring/CSE325 - .NetSoftwareDev/CSE-325/Week2/DotNetDebugging/bin/Debug/net10.0/DotNetDebugging
+/Users/brysonwebb/Desktop/BYUI/Semesters/2026Spring/CSE325 - .NetSoftwareDev/CSE-325/Week2/DotNetDebugging/bin/Debug/net10.0/DotNetDebugging.deps.json
+/Users/brysonwebb/Desktop/BYUI/Semesters/2026Spring/CSE325 - .NetSoftwareDev/CSE-325/Week2/DotNetDebugging/bin/Debug/net10.0/DotNetDebugging.runtimeconfig.json
+/Users/brysonwebb/Desktop/BYUI/Semesters/2026Spring/CSE325 - .NetSoftwareDev/CSE-325/Week2/DotNetDebugging/bin/Debug/net10.0/DotNetDebugging.dll
+/Users/brysonwebb/Desktop/BYUI/Semesters/2026Spring/CSE325 - .NetSoftwareDev/CSE-325/Week2/DotNetDebugging/bin/Debug/net10.0/DotNetDebugging.pdb
+/Users/brysonwebb/Desktop/BYUI/Semesters/2026Spring/CSE325 - .NetSoftwareDev/CSE-325/Week2/DotNetDebugging/obj/Debug/net10.0/DotNetDebugging.GeneratedMSBuildEditorConfig.editorconfig
+/Users/brysonwebb/Desktop/BYUI/Semesters/2026Spring/CSE325 - .NetSoftwareDev/CSE-325/Week2/DotNetDebugging/obj/Debug/net10.0/DotNetDebugging.AssemblyInfoInputs.cache
+/Users/brysonwebb/Desktop/BYUI/Semesters/2026Spring/CSE325 - .NetSoftwareDev/CSE-325/Week2/DotNetDebugging/obj/Debug/net10.0/DotNetDebugging.AssemblyInfo.cs
+/Users/brysonwebb/Desktop/BYUI/Semesters/2026Spring/CSE325 - .NetSoftwareDev/CSE-325/Week2/DotNetDebugging/obj/Debug/net10.0/DotNetDebugging.csproj.CoreCompileInputs.cache
+/Users/brysonwebb/Desktop/BYUI/Semesters/2026Spring/CSE325 - .NetSoftwareDev/CSE-325/Week2/DotNetDebugging/obj/Debug/net10.0/DotNetDebugging.dll
+/Users/brysonwebb/Desktop/BYUI/Semesters/2026Spring/CSE325 - .NetSoftwareDev/CSE-325/Week2/DotNetDebugging/obj/Debug/net10.0/refint/DotNetDebugging.dll
+/Users/brysonwebb/Desktop/BYUI/Semesters/2026Spring/CSE325 - .NetSoftwareDev/CSE-325/Week2/DotNetDebugging/obj/Debug/net10.0/DotNetDebugging.pdb
+/Users/brysonwebb/Desktop/BYUI/Semesters/2026Spring/CSE325 - .NetSoftwareDev/CSE-325/Week2/DotNetDebugging/obj/Debug/net10.0/DotNetDebugging.genruntimeconfig.cache
+/Users/brysonwebb/Desktop/BYUI/Semesters/2026Spring/CSE325 - .NetSoftwareDev/CSE-325/Week2/DotNetDebugging/obj/Debug/net10.0/ref/DotNetDebugging.dll
