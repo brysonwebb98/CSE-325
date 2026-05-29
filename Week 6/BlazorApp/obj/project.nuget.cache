@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "vIZSQJNHCak=",
+  "success": true,
+  "projectFilePath": "/Users/brysonwebb/Desktop/BYUI/Semesters/2026Spring/CSE325 - .NetSoftwareDev/Week6/BlazorApp/BlazorApp.csproj",
+  "expectedPackageFiles": [
+    "/Users/brysonwebb/.nuget/packages/microsoft.aspnetcore.app.internal.assets/10.0.7/microsoft.aspnetcore.app.internal.assets.10.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}

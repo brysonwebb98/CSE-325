@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/brysonwebb/Desktop/BYUI/Semesters/2026Spring/CSE325 - .NetSoftwareDev/CSE-325/Week2/ContosoPizza/ContosoPizza.csproj": {}
+    "/Users/brysonwebb/Desktop/BYUI/Semesters/2026Spring/CSE325 - .NetSoftwareDev/Week1,2,3/CSE-325/Week2/ContosoPizza/ContosoPizza.csproj": {}
   },
   "projects": {
-    "/Users/brysonwebb/Desktop/BYUI/Semesters/2026Spring/CSE325 - .NetSoftwareDev/CSE-325/Week2/ContosoPizza/ContosoPizza.csproj": {
+    "/Users/brysonwebb/Desktop/BYUI/Semesters/2026Spring/CSE325 - .NetSoftwareDev/Week1,2,3/CSE-325/Week2/ContosoPizza/ContosoPizza.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/brysonwebb/Desktop/BYUI/Semesters/2026Spring/CSE325 - .NetSoftwareDev/CSE-325/Week2/ContosoPizza/ContosoPizza.csproj",
+        "projectUniqueName": "/Users/brysonwebb/Desktop/BYUI/Semesters/2026Spring/CSE325 - .NetSoftwareDev/Week1,2,3/CSE-325/Week2/ContosoPizza/ContosoPizza.csproj",
         "projectName": "ContosoPizza",
-        "projectPath": "/Users/brysonwebb/Desktop/BYUI/Semesters/2026Spring/CSE325 - .NetSoftwareDev/CSE-325/Week2/ContosoPizza/ContosoPizza.csproj",
+        "projectPath": "/Users/brysonwebb/Desktop/BYUI/Semesters/2026Spring/CSE325 - .NetSoftwareDev/Week1,2,3/CSE-325/Week2/ContosoPizza/ContosoPizza.csproj",
         "packagesPath": "/Users/brysonwebb/.nuget/packages/",
-        "outputPath": "/Users/brysonwebb/Desktop/BYUI/Semesters/2026Spring/CSE325 - .NetSoftwareDev/CSE-325/Week2/ContosoPizza/obj/",
+        "outputPath": "/Users/brysonwebb/Desktop/BYUI/Semesters/2026Spring/CSE325 - .NetSoftwareDev/Week1,2,3/CSE-325/Week2/ContosoPizza/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/brysonwebb/.nuget/NuGet/NuGet.Config"

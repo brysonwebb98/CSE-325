@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZsGdkQIqsIw=",
+  "dgSpecHash": "S4rAxV6ApyM=",
   "success": true,
-  "projectFilePath": "/Users/brysonwebb/Desktop/BYUI/Semesters/2026Spring/CSE325 - .NetSoftwareDev/CSE-325/Week2/ContosoPizza/ContosoPizza.csproj",
+  "projectFilePath": "/Users/brysonwebb/Desktop/BYUI/Semesters/2026Spring/CSE325 - .NetSoftwareDev/Week1,2,3/CSE-325/Week2/ContosoPizza/ContosoPizza.csproj",
   "expectedPackageFiles": [
     "/Users/brysonwebb/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/Users/brysonwebb/.nuget/packages/microsoft.openapi/1.6.14/microsoft.openapi.1.6.14.nupkg.sha512",

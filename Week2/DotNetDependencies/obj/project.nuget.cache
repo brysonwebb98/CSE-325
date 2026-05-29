@@ -53,9 +53,9 @@
     "/Users/brysonwebb/.nuget/packages/humanizer.core.zh-cn/2.11.10/humanizer.core.zh-cn.2.11.10.nupkg.sha512",
     "/Users/brysonwebb/.nuget/packages/humanizer.core.zh-hans/2.11.10/humanizer.core.zh-hans.2.11.10.nupkg.sha512",
     "/Users/brysonwebb/.nuget/packages/humanizer.core.zh-hant/2.11.10/humanizer.core.zh-hant.2.11.10.nupkg.sha512",
+    "/Users/brysonwebb/.nuget/packages/microsoft.netcore.app.ref/8.0.26/microsoft.netcore.app.ref.8.0.26.nupkg.sha512",
     "/Users/brysonwebb/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.26/microsoft.aspnetcore.app.ref.8.0.26.nupkg.sha512",
-    "/Users/brysonwebb/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.26/microsoft.netcore.app.host.osx-arm64.8.0.26.nupkg.sha512",
-    "/Users/brysonwebb/.nuget/packages/microsoft.netcore.app.ref/8.0.26/microsoft.netcore.app.ref.8.0.26.nupkg.sha512"
+    "/Users/brysonwebb/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.26/microsoft.netcore.app.host.osx-arm64.8.0.26.nupkg.sha512"
   ],
   "logs": []
 }
