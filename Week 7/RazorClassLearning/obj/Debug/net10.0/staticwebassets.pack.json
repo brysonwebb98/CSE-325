@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/brysonwebb/Desktop/BYUI/Semesters/2026Spring/CSE325 - .NetSoftwareDev/CSE-325/Week 7/RazorClassLearning/obj/Debug/net10.0/scopedcss/projectbundle/RazorClassLearning.bundle.scp.css",
+      "PackagePath": "staticwebassets/RazorClassLearning.0l9covcgto.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/brysonwebb/Desktop/BYUI/Semesters/2026Spring/CSE325 - .NetSoftwareDev/CSE-325/Week 7/RazorClassLearning/wwwroot/background.png",
+      "PackagePath": "staticwebassets/background.png"
+    },
+    {
+      "Id": "/Users/brysonwebb/Desktop/BYUI/Semesters/2026Spring/CSE325 - .NetSoftwareDev/CSE-325/Week 7/RazorClassLearning/wwwroot/exampleJsInterop.js",
+      "PackagePath": "staticwebassets/exampleJsInterop.js"
+    },
+    {
+      "Id": "obj/Debug/net10.0/staticwebassets/msbuild.RazorClassLearning.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net10.0/staticwebassets/msbuild.RazorClassLearning.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net10.0/staticwebassets/msbuild.build.RazorClassLearning.props",
+      "PackagePath": "build\\RazorClassLearning.props"
+    },
+    {
+      "Id": "obj/Debug/net10.0/staticwebassets/msbuild.buildMultiTargeting.RazorClassLearning.props",
+      "PackagePath": "buildMultiTargeting\\RazorClassLearning.props"
+    },
+    {
+      "Id": "obj/Debug/net10.0/staticwebassets/msbuild.buildTransitive.RazorClassLearning.props",
+      "PackagePath": "buildTransitive\\RazorClassLearning.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
