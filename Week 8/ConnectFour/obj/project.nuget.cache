@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VU/7wbHko74=",
+  "success": true,
+  "projectFilePath": "/Users/brysonwebb/Desktop/BYUI/Semesters/2026Spring/CSE325 - .NetSoftwareDev/CSE-325/Week 8/ConnectFour/ConnectFour.csproj",
+  "expectedPackageFiles": [
+    "/Users/brysonwebb/.nuget/packages/microsoft.aspnetcore.app.internal.assets/10.0.7/microsoft.aspnetcore.app.internal.assets.10.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,128 @@
+@inject GameState State
+@using System.Drawing
+
+<HeadContent>
+    <style>
+        :root {
+            --board-bg: @ColorTranslator.ToHtml(BoardColor);
+            --player1: @ColorTranslator.ToHtml(Player1Color);
+            --player2: @ColorTranslator.ToHtml(Player2Color);
+        }
+    </style>
+</HeadContent>
+
+<nav>
+    @for (byte i = 0; i < 7; i++)
+    {
+        var col = i;
+        <span title="Click to play a piece" @onclick="() => PlayPiece(col)">🔽</span>
+    }
+</nav>
+
+<article>
+    @winnerMessage  <button style="@ResetStyle" @onclick="ResetGame">Reset the game</button>
+    <br />
+    <span class="alert-danger">@errorMessage</span>
+    <span class="alert-info">@CurrentTurn</span>
+
+    <br />
+    @* EXTRA PORTION *@
+    <strong>Player 1 Wins:</strong> @player1Wins
+    <br />
+    <strong>Player 2 Wins:</strong> @player2Wins
+</article>
+
+<div>
+    <div class="board">
+        @for (var i = 0; i < 42; i++)
+        {
+            <span class="container">
+                <span></span>
+            </span>
+        }
+    </div>
+
+    @for (var i = 0; i < 42; i++)
+    {
+        <span class="@pieces[i]"></span>
+    }
+</div>
+
+@code {
+    private string[] pieces = new string[42];
+
+    private string winnerMessage = string.Empty;
+    private string errorMessage = string.Empty;
+
+@* EXTRA PORTION *@
+    private int player1Wins = 0;
+    private int player2Wins = 0;
+
+    private string CurrentTurn => (winnerMessage == string.Empty) ? $"Player {State.PlayerTurn}'s Turn" : "";
+    private string ResetStyle => (winnerMessage == string.Empty) ? "display: none;" : "";
+
+    private void PlayPiece(byte col)
+    {
+        if (!string.IsNullOrEmpty(winnerMessage))
+        {
+            return;
+        }
+        
+        errorMessage = string.Empty;
+        try
+        {
+            var player = State.PlayerTurn;
+            var turn = State.CurrentTurn;
+            var landingRow = State.PlayPiece(col);
+            pieces[turn] = $"player{player} col{col} drop{landingRow}";
+        }
+
+        catch (ArgumentException ex)
+        {
+            errorMessage = ex.Message;
+            return;
+        }
+
+        var winState = State.CheckForWin();
+
+        winnerMessage = winState switch
+        {
+            GameState.WinState.Player1_Wins => "Player 1 Wins!",
+            GameState.WinState.Player2_Wins => "Player 2 Wins!",
+            GameState.WinState.Tie => "It's a tie!",
+            _ => ""
+        };
+
+        @* EXTRA PORTION *@
+        if (winState == GameState.WinState.Player1_Wins)
+        {
+            player1Wins++;
+        }
+        else if (winState == GameState.WinState.Player2_Wins)
+        {
+            player2Wins++;
+        }
+    }
+
+    void ResetGame()
+    {
+        State.ResetBoard();
+        winnerMessage = string.Empty;
+        errorMessage = string.Empty;
+        pieces = new string[42];
+    }
+
+    [Parameter]
+    public Color BoardColor { get; set; } = ColorTranslator.FromHtml("yellow");
+
+    [Parameter]
+    public Color Player1Color { get; set; } = ColorTranslator.FromHtml("red");
+
+    [Parameter]
+    public Color Player2Color { get; set; } = ColorTranslator.FromHtml("blue");
+
+    protected override void OnInitialized()
+    {
+        State.ResetBoard();
+    }
+}
